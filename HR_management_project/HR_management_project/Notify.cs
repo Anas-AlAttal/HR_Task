@@ -17,7 +17,7 @@ namespace HR_management_project
         public static void NotifyDepartmentEmployees(Department department, Employee employee,string massage)
         {
             foreach (var emp in department.GetEmployees())
-                Notify.NotifyDepartment(department, $"A new employee {employee.EmployeeName},(Id:{employee.EmployeeId}) was {massage} to your department.");
+                Notify.NotifyDepartment(department, $"An employee {employee.EmployeeName},(Id:{employee.EmployeeId}) was {massage} to your department.");
         }
 
         public static void NotifyCompanyeRequest(Department department, decimal amount)
@@ -31,3 +31,4 @@ namespace HR_management_project
         }
     }
 }
+
