@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HR_management_project.Data.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.Metrics;

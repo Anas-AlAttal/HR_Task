@@ -30,8 +30,8 @@ namespace HR_management_project.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("EmployeeCount")
-                        .HasColumnType("INTEGER");
+                    b.Property<decimal>("TotalSalaries")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
@@ -54,7 +54,7 @@ namespace HR_management_project.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("SalaryId")
+                    b.Property<int>("TakenHolidays")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HR_management_project.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260311105233_InitialCompany")]
-    partial class InitialCompany
+    [Migration("20260317080406_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,8 +33,8 @@ namespace HR_management_project.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("EmployeeCount")
-                        .HasColumnType("INTEGER");
+                    b.Property<decimal>("TotalSalaries")
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
@@ -57,7 +57,7 @@ namespace HR_management_project.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("SalaryId")
+                    b.Property<int>("TakenHolidays")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("Id");

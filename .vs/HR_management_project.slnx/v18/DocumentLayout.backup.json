@@ -3,64 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\data\\stores\\sqllitestore\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\data\\stores\\sqllitestore\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\eventhandlers\\departmentbalanceeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\eventhandlers\\departmentbalanceeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\eventhandlers\\holidayseventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\eventhandlers\\holidayseventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\eventhandlers\\employeeeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\eventhandlers\\employeeeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\eventsarg\\employeeeventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\eventsarg\\employeeeventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\services\\holidaysservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\services\\holidaysservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\eventsarg\\holidayrequestedeventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\eventsarg\\holidayrequestedeventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\eventsarg\\departmentbalanceeventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\eventsarg\\departmentbalanceeventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\services\\employeedepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\services\\employeedepartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\data\\staticdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\data\\staticdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\data\\idatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\data\\idatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\data\\idatastorewithlogging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\data\\idatastorewithlogging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\services\\holidaysservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\services\\holidaysservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\data\\stores\\sqllitestore\\databasestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\data\\stores\\sqllitestore\\databasestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\datasede\\staticdataseder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\datasede\\staticdataseder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\eventhandlers\\holidayseventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\eventhandlers\\holidayseventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\eventsarg\\holidayrequestedeventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\eventsarg\\holidayrequestedeventarg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\dtos\\holidayrequestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\dtos\\holidayrequestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|c:\\users\\user\\desktop\\hr_management_project with data store\\hr_management_project\\enums\\holidayrequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F028F15-039A-B633-2EC5-8778542F0127}|HR_management_project\\HR_management_project.csproj|solutionrelative:hr_management_project\\enums\\holidayrequeststatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,124 +46,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 10,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Program.cs",
               "RelativeDocumentMoniker": "HR_management_project\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Program.cs",
               "RelativeToolTip": "HR_management_project\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwCsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T10:08:36.065Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DepartmentBalanceEventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventHandlers\\DepartmentBalanceEventHandler.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\EventHandlers\\DepartmentBalanceEventHandler.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventHandlers\\DepartmentBalanceEventHandler.cs",
-              "RelativeToolTip": "HR_management_project\\EventHandlers\\DepartmentBalanceEventHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:21:48.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HolidaysEventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventHandlers\\HolidaysEventHandler.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\EventHandlers\\HolidaysEventHandler.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventHandlers\\HolidaysEventHandler.cs",
-              "RelativeToolTip": "HR_management_project\\EventHandlers\\HolidaysEventHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:21:45.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeEventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventHandlers\\EmployeeEventHandler.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\EventHandlers\\EmployeeEventHandler.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventHandlers\\EmployeeEventHandler.cs",
-              "RelativeToolTip": "HR_management_project\\EventHandlers\\EmployeeEventHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:21:31.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeEventArg.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventsArg\\EmployeeEventArg.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\EventsArg\\EmployeeEventArg.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventsArg\\EmployeeEventArg.cs",
-              "RelativeToolTip": "HR_management_project\\EventsArg\\EmployeeEventArg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:21:14.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HolidaysService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Services\\HolidaysService.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\Services\\HolidaysService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Services\\HolidaysService.cs",
-              "RelativeToolTip": "HR_management_project\\Services\\HolidaysService.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:19:53.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HolidayRequestedEventArg.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventsArg\\HolidayRequestedEventArg.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\EventsArg\\HolidayRequestedEventArg.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventsArg\\HolidayRequestedEventArg.cs",
-              "RelativeToolTip": "HR_management_project\\EventsArg\\HolidayRequestedEventArg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:18:45.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DepartmentBalanceEventArg.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventsArg\\DepartmentBalanceEventArg.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\EventsArg\\DepartmentBalanceEventArg.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventsArg\\DepartmentBalanceEventArg.cs",
-              "RelativeToolTip": "HR_management_project\\EventsArg\\DepartmentBalanceEventArg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:16:45.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IDataStoreWithLogging.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\IDataStoreWithLogging.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\Data\\IDataStoreWithLogging.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\IDataStoreWithLogging.cs",
-              "RelativeToolTip": "HR_management_project\\Data\\IDataStoreWithLogging.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T11:06:07.075Z",
               "EditorCaption": ""
             },
             {
@@ -256,80 +128,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StaticDataStore.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\StaticDataStore.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\Data\\StaticDataStore.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\StaticDataStore.cs",
-              "RelativeToolTip": "HR_management_project\\Data\\StaticDataStore.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwFsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T10:50:02.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\Stores\\SqlLiteStore\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\Data\\Stores\\SqlLiteStore\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\Stores\\SqlLiteStore\\ApplicationDbContext.cs",
-              "RelativeToolTip": "HR_management_project\\Data\\Stores\\SqlLiteStore\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:07:27.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IDataStore.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\IDataStore.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\Data\\IDataStore.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\IDataStore.cs",
-              "RelativeToolTip": "HR_management_project\\Data\\IDataStore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:07:14.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "DataBaseStore.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\Stores\\SqlLiteStore\\DataBaseStore.cs",
               "RelativeDocumentMoniker": "HR_management_project\\Data\\Stores\\SqlLiteStore\\DataBaseStore.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Data\\Stores\\SqlLiteStore\\DataBaseStore.cs",
               "RelativeToolTip": "HR_management_project\\Data\\Stores\\SqlLiteStore\\DataBaseStore.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwEoAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAewCYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:06:49.605Z",
+              "WhenOpened": "2026-03-17T08:40:46.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
+              "Title": "StaticDataSeder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\DataSede\\StaticDataSeder.cs",
+              "RelativeDocumentMoniker": "HR_management_project\\DataSede\\StaticDataSeder.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\DataSede\\StaticDataSeder.cs",
+              "RelativeToolTip": "HR_management_project\\DataSede\\StaticDataSeder.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:41:20.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EmployeeDepartmentService.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Services\\EmployeeDepartmentService.cs",
               "RelativeDocumentMoniker": "HR_management_project\\Services\\EmployeeDepartmentService.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Services\\EmployeeDepartmentService.cs",
               "RelativeToolTip": "HR_management_project\\Services\\EmployeeDepartmentService.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAA8wDgAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T09:00:10.698Z",
+              "WhenOpened": "2026-03-17T08:41:08.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DepartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Services\\DepartmentService.cs",
-              "RelativeDocumentMoniker": "HR_management_project\\Services\\DepartmentService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Services\\DepartmentService.cs",
-              "RelativeToolTip": "HR_management_project\\Services\\DepartmentService.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAIwBUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "HolidaysEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventHandlers\\HolidaysEventHandler.cs",
+              "RelativeDocumentMoniker": "HR_management_project\\EventHandlers\\HolidaysEventHandler.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventHandlers\\HolidaysEventHandler.cs",
+              "RelativeToolTip": "HR_management_project\\EventHandlers\\HolidaysEventHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T08:59:12.001Z",
+              "WhenOpened": "2026-03-17T08:38:01.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HolidayRequestStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Enums\\HolidayRequestStatus.cs",
+              "RelativeDocumentMoniker": "HR_management_project\\Enums\\HolidayRequestStatus.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Enums\\HolidayRequestStatus.cs",
+              "RelativeToolTip": "HR_management_project\\Enums\\HolidayRequestStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:22:58.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HolidayRequestedEventArg.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventsArg\\HolidayRequestedEventArg.cs",
+              "RelativeDocumentMoniker": "HR_management_project\\EventsArg\\HolidayRequestedEventArg.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\EventsArg\\HolidayRequestedEventArg.cs",
+              "RelativeToolTip": "HR_management_project\\EventsArg\\HolidayRequestedEventArg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:17:50.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HolidayRequestResult.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\DTOs\\HolidayRequestResult.cs",
+              "RelativeDocumentMoniker": "HR_management_project\\DTOs\\HolidayRequestResult.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\DTOs\\HolidayRequestResult.cs",
+              "RelativeToolTip": "HR_management_project\\DTOs\\HolidayRequestResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T08:09:39.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HolidaysService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Services\\HolidaysService.cs",
+              "RelativeDocumentMoniker": "HR_management_project\\Services\\HolidaysService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\HR_management_project with data store\\HR_management_project\\Services\\HolidaysService.cs",
+              "RelativeToolTip": "HR_management_project\\Services\\HolidaysService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T11:19:53.297Z",
               "EditorCaption": ""
             }
           ]

@@ -1,4 +1,4 @@
-﻿using HR_management_project.Data;
+﻿using HR_management_project.Data.Core;
 using HR_management_project.DTOs;
 using HR_management_project.Event;
 using HR_management_project.Model;

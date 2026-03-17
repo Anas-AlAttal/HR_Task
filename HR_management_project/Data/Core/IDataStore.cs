@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace HR_management_project.Data
+namespace HR_management_project.Data.Core
 {
     public interface IDataStore
     {

@@ -1,4 +1,4 @@
-﻿using HR_management_project.Data;
+﻿using HR_management_project.Data.Core;
 using HR_management_project.DTOs;
 using HR_management_project.Enums;
 using HR_management_project.Event;
@@ -25,32 +25,31 @@ namespace HR_management_project.Services
             EmployeeState += _employeeEventHandler.HandleEmployeeChanges;
             DepartmentBalanceRequest += _departmentBalanceEventHandler.HandleIncremantBalanceReaquest;
         }
-
         public async Task AddEmployee(CreateEmployeeDto dto)
-        {
-            //--------------------------- remove logic from catch
-            try
-            {
-                if (await _dataStore.GetData<Employee, int>(dto.EmployeeId) != null)
-                    throw new Exception("Epmloyee is existed");
+        {     
+            var existedEmployee = await _dataStore.GetData<Employee, int>(dto.EmployeeId);
 
+            if (existedEmployee != null)
+                throw new Exception("Epmloyee is existed");
+
+            if (await IsEnoughDepartmentBalance(dto.DepartmentId, dto.BaseSalary))
+            {
+                var emp = new Employee(dto.EmployeeName, dto.DepartmentId, dto.BaseSalary);
+                await _dataStore.Add(emp);
+                EmployeeState?.Invoke(this, new EmployeeEventArg(emp.Id, emp.EmployeeName, EmployeeOperation.Added));
             }
-            catch (Exception ex)
+            else
             {
-                if (await IsEnoughDepartmentBalance(dto.DepartmentId, dto.BaseSalary))
-                {
-                    var emp = new Employee(dto.EmployeeName, dto.DepartmentId, dto.BaseSalary);
-                    await _dataStore.Add(emp);
-                    EmployeeState?.Invoke(this, new EmployeeEventArg(emp.Id, emp.EmployeeName, EmployeeOperation.Added));
-                }
-
-
-                //throw ;
+                var department = await _dataStore.GetData<Department, int>(dto.DepartmentId);
+                DepartmentBalanceRequest?.Invoke(this, new DepartmentBalanceEventArg(department.Id, department.Balance, department.Balance + dto.BaseSalary));
             }
         }
         public async Task MoveEmployee(MoveEmployeeDto dto)
         {
             var employee = await _dataStore.GetData<Employee, int>(dto.EmployeeId);
+            if (employee == null)
+                throw new Exception("Employee not found");
+                
             if (employee.DepartmentId != dto.FromDepartmentId)
                 throw new Exception("Employee not in this dipartment.");
 
@@ -60,9 +59,12 @@ namespace HR_management_project.Services
                 await _dataStore.Update<Employee, int>(employee);
                 EmployeeState?.Invoke(this, new EmployeeEventArg(employee.Id, employee.EmployeeName, EmployeeOperation.Moved));
             }
-
+            else
+            {
+                var department = await _dataStore.GetData<Department, int>(dto.ToDepartmentId);
+                DepartmentBalanceRequest?.Invoke(this, new DepartmentBalanceEventArg(department.Id, department.Balance, department.Balance + employee.GetNetSalary()));
+            }
         }
-
         public async Task RemoveEmployee(int employeeId, int departmentId)
         {
             var employee = await _dataStore.GetData<Employee, int>(employeeId);
@@ -71,48 +73,29 @@ namespace HR_management_project.Services
             await _dataStore.Delete<Employee>(employee);
             EmployeeState?.Invoke(this, new EmployeeEventArg(employee.Id, employee.EmployeeName, EmployeeOperation.Removed));
         }
-
         public async Task<int> GetDepartmensEmployeeCount(int departmentId)
         {
             var list = await _dataStore.GetList<Employee>(e => e.DepartmentId == departmentId);
             return list.Count;
         }
-
         public async Task<bool> IsEnoughDepartmentBalance(int departmentId, decimal empBalance)
         {
             var dep = await _dataStore.GetData<Department, int>(departmentId);
-            decimal empBalances = empBalance + await TotalEmployeesBalanceInDepartment(departmentId);
-            if (dep.Balance >= empBalance)
-            {
+            decimal totalEmployeesSalary = empBalance + await TotalEmployeesBalanceInDepartment(departmentId);
+            if (dep.Balance >= totalEmployeesSalary)
                 return true;
-            }
-           // move event
-            //DepartmentBalanceRequest?.Invoke(this, new DepartmentBalanceEventArg(departmentId, dep.Balance, empBalances));
+
             return false;
         }
-
         public async Task<decimal> TotalEmployeesBalanceInDepartment(int departmentId)
         {
             var empList = await _dataStore.GetList<Employee>(e => e.DepartmentId == departmentId);
-            decimal empBalances = 0;
-            foreach (var emp in empList)
-            {
-                empBalances += emp.GetNetSalary();
-            }
-            return empBalances;
+            return empList.Sum(e => e.GetNetSalary());
         }
-
         public async Task<List<Employee>> GetList()
         {
-            try
-            {
                 var employees = await _dataStore.GetList<Employee>();
                 return employees;
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
         }
     }
 }

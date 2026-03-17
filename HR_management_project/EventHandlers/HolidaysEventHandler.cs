@@ -9,7 +9,7 @@ namespace HR_management_project.EventHandlers
     {
         public void HandleHolidayRequest(object sender, HolidayRequestedEventArg h)
         {
-            Console.WriteLine($"Employee Id:{h.EmployeeID} request a holiday.");
+            Console.WriteLine($"Employee Id:{h.EmployeeID} request a holiday ({h.RequestedDays} days) whith state: {h.Status.ToString()}");
         }
 
     }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HR_management_project.Data
+namespace HR_management_project.Data.Core
 {
     public interface IEntity<TKey>
     {

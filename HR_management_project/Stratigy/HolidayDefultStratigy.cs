@@ -5,7 +5,7 @@ using HR_management_project.Interfaces;
 
 namespace HR_management_project.Stratigy
 {
-    public class HolidayDefultStratigy : IHolidayStratigy
+    public class HolidayDefultStratigy : IHolidayStrategy
     {
         
 

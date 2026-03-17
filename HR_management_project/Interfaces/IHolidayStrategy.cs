@@ -4,7 +4,7 @@ using System.Text;
 
 namespace HR_management_project.Interfaces
 {
-    public interface IHolidayStratigy
+    public interface IHolidayStrategy
     {
         public int CalculateHolidays(int YearsOfService);
     }

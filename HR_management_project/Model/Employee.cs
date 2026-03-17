@@ -1,4 +1,4 @@
-using HR_management_project.Data;
+using HR_management_project.Data.Core;
 using HR_management_project.Extensions;
 using HR_management_project.Services;
 using System;
@@ -16,17 +16,18 @@ namespace HR_management_project.Model
 
         //extetion method to calculate years of service
         public int YearsOfService => this.CalculateYearsOfService();
-
+        public int TakenHolidays { get; private set; } = 0;
         public int Id { get; set; }
 
         public Employee() { }
-        
+            
         public Employee(string employeeName, int departmentId, decimal baseSalary)
         {
             SetEmployeeName(employeeName);
             DepartmentId = departmentId;
             DateOfJoining = DateTime.UtcNow;
             Salary = new EmployeeSalary(baseSalary);
+          
         }
 
         private void SetEmployeeName(string employeeName)
@@ -35,9 +36,6 @@ namespace HR_management_project.Model
                 throw new ArgumentException("Employee name cannot be empty.");
             EmployeeName = employeeName;
         }
-
-        
-
         public void SetStartedDate(DateTime startedAt)
         {
             if (startedAt > DateTime.UtcNow)
@@ -45,7 +43,6 @@ namespace HR_management_project.Model
 
             DateOfJoining = startedAt;
         }
-
         public decimal GetNetSalary()
         {
             return Salary.NetSalary;
@@ -61,6 +58,13 @@ namespace HR_management_project.Model
         public override string ToString()
         {
             return $"Employee Id: {Id}, Name: {EmployeeName}, DepartmentId: {DepartmentId}";
+        }
+
+        public void TakeHoliday (int days)
+        {
+            if (days <= 0)
+                throw new Exception("Invalid Days");
+            TakenHolidays += days;
         }
 
     }

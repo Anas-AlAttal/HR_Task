@@ -1,8 +1,10 @@
-using HR_management_project.Data;
+using HR_management_project.Data.Core;
 using HR_management_project.Data.Stores.SqlLiteStore;
+using HR_management_project.Data.Stores.StaticStore;
 using HR_management_project.DTOs;
 using HR_management_project.EventHandlers;
 using HR_management_project.Migrator;
+using HR_management_project.Model;
 using HR_management_project.Services;
 using HR_management_project.Stratigy;
 internal class Program
@@ -16,8 +18,8 @@ internal class Program
 
         ApplicationDbContext context = new ApplicationDbContext();
 
-        //IDataStore dataStor = new DataBaseStore(context);
-        IDataStore dataStor = new StaticDataStore();
+        IDataStore dataStor = new DataBaseStore(context);
+        //IDataStore dataStor = new StaticDataStore();
 
 
         //IDataStoreShow dataStorShow = new DataBaseStore(context);
@@ -49,7 +51,7 @@ internal class Program
         Console.WriteLine("---------------------------------------------------");
         //dataStor.PrintAllData();
 
-       
+
 
 
 
@@ -61,13 +63,13 @@ internal class Program
 
         //var emp = hrDepartment.GetEmployeeById(2);
 
-        HolidayService.RequestHoliday(3);
+        await HolidayService.RequestHoliday(2,1);
         Console.WriteLine("-----------------------------------");
-
+        Console.WriteLine((await dataStor.GetData<Employee,int>(2)).ToString() );
 
         //emp.SetStartedDate(new DateTime(2020, 1, 1));
         //Console.WriteLine(emp.YearsOfService);
-        Console.WriteLine($"Total holidays = { await HolidayService.GetEmployeeHolidays(2)}");
+        Console.WriteLine($"Total holidays = { await HolidayService.GetEmployeeHolidays(3)}");
 
         Console.WriteLine(await employeeDepartmentService.TotalEmployeesBalanceInDepartment(3));
     }

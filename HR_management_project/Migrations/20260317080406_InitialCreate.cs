@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace HR_management_project.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCompany : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,8 +18,8 @@ namespace HR_management_project.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     DepartmentName = table.Column<string>(type: "TEXT", nullable: false),
-                    EmployeeCount = table.Column<int>(type: "INTEGER", nullable: false),
-                    Balance = table.Column<decimal>(type: "TEXT", nullable: false)
+                    Balance = table.Column<decimal>(type: "TEXT", nullable: false),
+                    TotalSalaries = table.Column<decimal>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -37,8 +37,8 @@ namespace HR_management_project.Migrations
                     BaseSalary = table.Column<decimal>(type: "TEXT", nullable: false),
                     Deduction = table.Column<decimal>(type: "TEXT", nullable: false),
                     Bonus = table.Column<decimal>(type: "TEXT", nullable: false),
-                    SalaryId = table.Column<int>(type: "INTEGER", nullable: false),
-                    DateOfJoining = table.Column<DateTime>(type: "TEXT", nullable: false)
+                    DateOfJoining = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    TakenHolidays = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

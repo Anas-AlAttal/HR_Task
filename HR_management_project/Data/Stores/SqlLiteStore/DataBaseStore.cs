@@ -1,3 +1,4 @@
+using HR_management_project.Data.Core;
 using HR_management_project.Model;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
@@ -31,8 +32,8 @@ namespace HR_management_project.Data.Stores.SqlLiteStore
         public async Task<TEntity> GetData<TEntity, TKey>(TKey key) where TEntity : class, IEntity<TKey>
         {
          var entity = await _dbContext.Set<TEntity>().FindAsync(key);
-            if (entity == null) 
-                throw new KeyNotFoundException($"Entity with id {key} not found.");
+            //if (entity == null) 
+            //    throw new KeyNotFoundException($"Entity with id {key} not found.");
 
             return entity;
         }
