@@ -1,17 +1,12 @@
 ﻿using HR_management_project.Data.Core;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Diagnostics.Metrics;
 using System.Linq.Expressions;
-using System.Text;
 
 namespace HR_management_project.Data.Stores.StaticStore
 {
-    public class StaticDataStore : IDataStore 
+    public class StaticDataStore : IDataStore
     {
         private readonly Dictionary<string, object> _dataStore = new Dictionary<string, object>();
-        private readonly Dictionary<string, int> _counter = new Dictionary<string, int>();   
+        private readonly Dictionary<string, int> _counter = new Dictionary<string, int>();
 
 
         public Task<T> Add<T>(T data) where T : class, IEntity<int>
@@ -24,8 +19,8 @@ namespace HR_management_project.Data.Stores.StaticStore
             if (!_counter.ContainsKey(typeKey))
                 _counter[typeKey] = 1;
 
-            data.Id = (int)(object) _counter[typeKey]++;
-            
+            data.Id = (int)(object)_counter[typeKey]++;
+
             var list = (List<T>)_dataStore[typeKey];
             if (list == null)
                 throw new NullReferenceException(typeKey);
@@ -89,32 +84,5 @@ namespace HR_management_project.Data.Stores.StaticStore
             }
             throw new KeyNotFoundException($"Entity with id {data.Id} not found.");
         }
-
-        private void PrintAllData()
-{
-    Console.WriteLine("=== All Data in StaticDataStore ===");
-
-    foreach (var kvp in _dataStore)
-    {
-        var typeName = kvp.Key;
-        var list = kvp.Value as System.Collections.IEnumerable;
-
-        Console.WriteLine($"\nType: {typeName}");
-
-        if (list != null)
-        {
-            foreach (var item in list)
-            {
-                Console.WriteLine($"{item}");
-            }
-        }
-        else
-        {
-            Console.WriteLine("No items.");
-        }
-    }
-
-    Console.WriteLine("=== End of Data ===");
-}
     }
 }

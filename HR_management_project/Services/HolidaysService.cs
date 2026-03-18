@@ -64,7 +64,7 @@ namespace HR_management_project.Services
 
             int takenDays = emp.TakenHolidays;
 
-            if (takenDays > allowedHolidays)
+            if (takenDays + requestedDays > allowedHolidays)
             {
                HolidayRequest?.Invoke(this, new HolidayRequestedEventArg(empId, requestedDays, remainingDays, HolidayRequestStatus.Rejected));
                 return HolidayRequestResult.Fail("Not enough holiday balance.");
